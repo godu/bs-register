@@ -1,6 +1,6 @@
 const { process } = require('bs-loader');
 
-require.extensions['.re'] = function (module, ...args) {
+require.extensions['.re'] = require.extensions['.ml'] = function (module, ...args) {
   const { id, filename } = module;
   const content = process(
     id,

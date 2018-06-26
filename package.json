@@ -13,5 +13,8 @@
     "bucklescript",
     "reason",
     "require"
-  ]
+  ],
+  "devDependencies": {
+    "nyc": "^12.0.2"
+  }
 }
