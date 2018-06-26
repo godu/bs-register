@@ -9,6 +9,10 @@
   "dependencies": {
     "bs-loader": "^2.0.5"
   },
+  "files": [
+    "README.md",
+    "register.js"
+  ],
   "keywords": [
     "bucklescript",
     "reason",
